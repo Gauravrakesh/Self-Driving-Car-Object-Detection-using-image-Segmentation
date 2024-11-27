@@ -11,31 +11,6 @@ By the end of this project,  we will learn how to:
 - Implement **non-max suppression** to enhance detection accuracy.
 - Calculate **intersection over union (IoU)** for bounding box evaluation.
 
-## Requirements
-
-To run this notebook successfully, you need to install the following packages:
-
-```python
-import argparse
-import os
-import matplotlib.pyplot as plt
-import scipy.io
-import scipy.misc
-import numpy as np
-import pandas as pd
-from PIL import ImageFont, ImageDraw, Image
-import tensorflow as tf
-from tensorflow.keras.models import load_model
-from yad2k.models.keras_yolo import yolo_head
-from yad2k.utils.utils import draw_boxes, get_colors_for_classes, scale_boxes, read_classes, read_anchors, preprocess_image
-
-%matplotlib inline.
-
-
-
-
-
-
 
 
 # README for Autonomous Driving - Car Detection
